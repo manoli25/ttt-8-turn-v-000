@@ -11,7 +11,8 @@ def display_board(board)
 end
 
 def valid_move?(board, index)
-  #if XXX
+  if index.between?(0.8)
+
   #  return true
 
 end
@@ -21,8 +22,12 @@ def move(board, index)
   #puts ""
 end
 
+def position_taken?(board, index)
+  # checks to see if the move is empty. If not equal to empty, aka position taken, return True.
+  board[index] != " "
+end
 
 def input_to_index(user_input)
   user_input = user_input.to_i
-  index = user_input - 1 
+  index = user_input - 1
 end
