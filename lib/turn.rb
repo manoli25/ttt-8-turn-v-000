@@ -24,6 +24,7 @@ def move(board, index, token = "X")
   board[index] = token
 end
 
+
 def position_taken?(board, index)
   # checks to see if the move is empty. If not equal to empty, aka position taken, return True.
   board[index] != " "
