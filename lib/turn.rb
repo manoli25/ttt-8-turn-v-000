@@ -25,5 +25,4 @@ end
 def input_to_index(user_input)
   user_input = user_input.to_i
   index = user_input - 1 
-  return index
 end
