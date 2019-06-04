@@ -20,7 +20,7 @@ def move(board, index)
   #puts ""
 end
 
-def input_to_index(input)
-  #"convert user input to index"
-  #return input
+def input_to_index(user_input)
+  user_input = [user_input]
+  
 end
