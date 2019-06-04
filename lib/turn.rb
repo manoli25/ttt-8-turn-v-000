@@ -4,6 +4,7 @@ def turn(board)
   if !valid_move?(board, index)
     turn(board)
   end
+  move(board, index, token)
 
 end
 
