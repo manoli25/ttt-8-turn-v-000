@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 require_relative "../lib/turn.rb"
+# Don't need .rb extension above
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
