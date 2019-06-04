@@ -13,11 +13,12 @@ end
 def valid_move?(board, index)
   # check for a valid move. Optional add in a check for the position taken
   if index.between?(0.8) # checks if move is valid
-  if !position_taken?(board, index) # optional check to see if the position is taken. States if position_taken? not evaluates to True, then execute next line
-    true
+    if !position_taken?(board, index) # optional check to see if the position is taken. States if position_taken? not evaluates to True, then execute next line
+      true
+    end
   end
 end
-  
+
 
 def move(board, index)
   #puts ""
