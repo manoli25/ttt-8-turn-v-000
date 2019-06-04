@@ -16,11 +16,14 @@ def valid_move?(board, index)
 
 end
 
+
 def move(board, index)
   #puts ""
 end
 
+
 def input_to_index(user_input)
   user_input = user_input.to_i
-  user_input - 1 
+  index = user_input - 1 
+  return index
 end
