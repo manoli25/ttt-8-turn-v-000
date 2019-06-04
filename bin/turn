@@ -3,3 +3,6 @@ require_relative "../lib/turn.rb"
 # Don't need .rb extension above
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+puts "Welcome to Tic Tac Toe!"
+display_board(board)
